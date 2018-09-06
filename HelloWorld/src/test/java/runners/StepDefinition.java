@@ -31,7 +31,7 @@ public class StepDefinition {
 	
 	@When("^I enter a value in the textfield$")
     public void i_enter_a_value_in_the_textfield() throws Throwable {
-		driver.findElement(By.id("textbox")).sendKeys("World");
+		driver.findElement(By.id("textbox")).sendKeys("Earth");
     }
 
 	@And("^I press the 'click Me' button$")
