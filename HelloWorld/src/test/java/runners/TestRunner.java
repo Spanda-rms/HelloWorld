@@ -5,7 +5,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "FeatureFile"
+		features = "/src/main/java/resources/FeatureFile.feature"
 		)
 public class TestRunner {
 }
