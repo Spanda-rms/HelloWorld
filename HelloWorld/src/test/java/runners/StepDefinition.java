@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 
 @RunWith(Cucumber.class)
@@ -22,11 +22,26 @@ public class StepDefinition {
 
 	@Given("^I am on the Webpage$")
 	public void i_am_on_the_webpage() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\spanda\\Documents\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://s3.amazonaws.com/asadcloudguru1234/index.html");
+		
+		String osname =System.getProperty("os.name");
+		
+		System.out.println(osname);
+		
+		if (osname.startsWith("Windows")) {
+			System.setProperty("phantomjs.binary.path", "/HelloWorld/drivers/phantomjs.exe");
+			driver = new PhantomJSDriver();
+		}
+		else {
+			/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\spanda\\Documents\\chromedriver_win32\\chromedriver.exe");
+			driver = new ChromeDriver();*/
+			
+			System.setProperty("phantomjs.binary.path", "/HelloWorld/drivers/phantomjs");
+			driver = new PhantomJSDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.get("https://s3.amazonaws.com/asadcloudguru1234/index.html");
+		}
+		
 	}
 	
 	@When("^I enter a value in the textfield$")
