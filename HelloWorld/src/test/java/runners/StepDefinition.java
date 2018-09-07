@@ -61,7 +61,7 @@ public class StepDefinition {
 	@Then("^the H1 header displays 'Hello WORLD'$")
 	public void the_h1_header_displays_hello_world() throws Throwable {
 
-		driver.switchTo().alert().accept();
+		//driver.switchTo().alert().accept();
 
 		WebElement text = driver.findElement(By.id("my-demo"));
 		String printedtext = text.getText();
