@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^I am on the Webpage$",
+    "steps": [
+      {
+        "name": "I am on the Webpage",
+        "aggregatedDurations": {
+          "average": 5.514481314,
+          "median": 5.514481314
+        },
+        "durations": [
+          {
+            "duration": 5.514481314,
+            "location": "src/main/java/resources/FeatureFile.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I press the \u0027click Me\u0027 button$",
+    "steps": [
+      {
+        "name": "I press the \u0027click Me\u0027 button",
+        "aggregatedDurations": {
+          "average": 1.082729892,
+          "median": 1.082729892
+        },
+        "durations": [
+          {
+            "duration": 1.082729892,
+            "location": "src/main/java/resources/FeatureFile.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the H1 header displays \u0027Hello WORLD\u0027$",
+    "steps": [
+      {
+        "name": "the H1 header displays \u0027Hello WORLD\u0027",
+        "aggregatedDurations": {
+          "average": 0.037392025,
+          "median": 0.037392025
+        },
+        "durations": [
+          {
+            "duration": 0.037392025,
+            "location": "src/main/java/resources/FeatureFile.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter a value in the textfield$",
+    "steps": [
+      {
+        "name": "I enter a value in the textfield",
+        "aggregatedDurations": {
+          "average": 0.077537325,
+          "median": 0.077537325
+        },
+        "durations": [
+          {
+            "duration": 0.077537325,
+            "location": "src/main/java/resources/FeatureFile.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

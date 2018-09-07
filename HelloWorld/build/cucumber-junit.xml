@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.712141">
+    <testcase classname="Sample Hello world Test" name="User inputs a text in the textfield and clicks button" time="6.712141">
+        <system-out>
+            <![CDATA[Given I am on the Webpage...................................................passed
+When I enter a value in the textfield.......................................passed
+And I press the 'click Me' button...........................................passed
+Then the H1 header displays 'Hello WORLD'...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
