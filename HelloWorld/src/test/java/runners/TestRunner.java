@@ -5,7 +5,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "/src/main/java/resources/FeatureFile.feature", glue= {"StepDefinition"},
+		features = "C:\\Users\\spanda\\git\\repository\\HelloWorld\\src\\main\\java\\FeatureFile.feature", glue= {"StepDefinition"},
 		plugin = { "pretty" },
 		monochrome = true
 		)

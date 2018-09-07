@@ -12,6 +12,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 
@@ -28,19 +29,24 @@ public class StepDefinition {
 		System.out.println(osname);
 		
 		if (osname.startsWith("Windows")) {
-			System.setProperty("phantomjs.binary.path", "/HelloWorld/drivers/phantomjs.exe");
-			driver = new PhantomJSDriver();
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\spanda\\Documents\\chromedriver_win32\\chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+			
+			/*System.setProperty("phantomjs.binary.path", "/HelloWorld/drivers/phantomjs.exe");
+			driver = new PhantomJSDriver();*/
 		}
 		else {
-			/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\spanda\\Documents\\chromedriver_win32\\chromedriver.exe");
-			driver = new ChromeDriver();*/
+			
 			
 			System.setProperty("phantomjs.binary.path", "/HelloWorld/drivers/phantomjs");
 			driver = new PhantomJSDriver();
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			driver.get("https://s3.amazonaws.com/asadcloudguru1234/index.html");
+			
 		}
+		
+		driver.get("https://s3.amazonaws.com/asadcloudguru1234/index.html");
 		
 	}
 	
