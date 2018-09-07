@@ -1,8 +1,0 @@
-Feature: Sample Hello world Test
-  Description: The purpose of this feature file is to run a trial test through Jenkins to validate the sample webpage hosted on AWS and send an email with report.Edited
-
-  Scenario: User inputs a text in the textfield and clicks button [90m# src/main/java/resources/FeatureFile.feature:4[0m
-    [32mGiven [0m[32mI am on the Webpage[0m                                     [90m# StepDefinition.i_am_on_the_webpage()[0m
-    [32mWhen [0m[32mI enter a value in the textfield[0m                         [90m# StepDefinition.i_enter_a_value_in_the_textfield()[0m
-    [32mAnd [0m[32mI press the 'click Me' button[0m                             [90m# StepDefinition.i_press_the_click_me_button()[0m
-    [32mThen [0m[32mthe H1 header displays 'Hello WORLD'[0m                     [90m# StepDefinition.the_h1_header_displays_hello_world()[0m
