@@ -39,7 +39,7 @@ public class StepDefinition {
 		else {
 			
 			
-			System.setProperty("phantomjs.binary.path", "/HelloWorld/drivers/phantomjs");
+			System.setProperty("phantomjs.binary.path", "/drivers/phantomjs");
 			driver = new PhantomJSDriver();
 			
 		}
