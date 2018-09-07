@@ -2,7 +2,9 @@ package runners;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -63,10 +65,15 @@ public class StepDefinition {
 
 	  @Then("^the H1 header displays 'Hello WORLD'$")
 	    public void the_h1_header_displays_hello_world() throws Throwable {
-		  //driver.switchTo().alert().accept();
+		  
+		  if(isAlertPresent()){
+              Alert alert = driver.switchTo().alert();
+              alert.accept();
+		  }else {
 		 
 		WebElement text = driver.findElement(By.id("my-demo"));
 		String printedtext = text.getText();
+		 
 		
 		if(printedtext.equalsIgnoreCase("EARTH")) {
 			System.out.println("Test has Passed");
@@ -76,5 +83,14 @@ public class StepDefinition {
 		}
 		
 	}
+	  }
 
+private boolean isAlertPresent() {
+	try{
+        driver.switchTo().alert();
+        return true;
+        }catch(NoAlertPresentException ex){
+              return false;
+        }
+			}
 }
