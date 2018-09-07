@@ -7,7 +7,6 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/main/java/resources/FeatureFile.feature",
 //		glue= {"StepDefinition"},
-plugin = { "html:target/cucumber-reports",
-		   "json:target/cucumber.json"})
+plugin = { "html:target/cucumber-reports"})
 public class TestRunner {
 }
