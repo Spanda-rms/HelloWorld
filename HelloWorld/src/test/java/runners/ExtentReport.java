@@ -32,7 +32,7 @@ public class ExtentReport {
 	    @BeforeTest
 	    public void startReport(String OS, String browser) {
 	    	// initialize the HtmlReporter
-	        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/testReport.html");
+	        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/testReporttrial.html");
 	        
 	        //initialize ExtentReports and attach the HtmlReporter
 	        extent = new ExtentReports();
