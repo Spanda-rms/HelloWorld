@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="OS" value="Windows"/>
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="runners.ExtentReport">
+        <methods>
+          <include name="testCase3"/>
+          <include name="getResult"/>
+          <include name="testCase2"/>
+          <include name="testCase5"/>
+          <include name="testCase4"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- runners.ExtentReport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
