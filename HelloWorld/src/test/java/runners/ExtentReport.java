@@ -28,7 +28,7 @@ public class ExtentReport {
 	    //helps to generate the logs in test report.
 	    ExtentTest test;
 	    
-	    @Parameters({"OS", "Browser"})
+	    @Parameters({"OS", "browser"})
 	    @BeforeTest
 	    public void startReport(String OS, String browser) {
 	    	// initialize the HtmlReporter

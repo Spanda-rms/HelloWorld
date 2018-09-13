@@ -2,22 +2,22 @@
 <testng-results ignored="1" total="6" passed="0" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-13T14:38:40Z" name="Default suite" finished-at="2018-09-13T14:38:40Z" duration-ms="44">
+  <suite started-at="2018-09-13T14:47:57Z" name="Default suite" finished-at="2018-09-13T14:47:57Z" duration-ms="43">
     <groups>
     </groups>
-    <test started-at="2018-09-13T14:38:40Z" name="Default test" finished-at="2018-09-13T14:38:40Z" duration-ms="44">
+    <test started-at="2018-09-13T14:47:57Z" name="Default test" finished-at="2018-09-13T14:47:57Z" duration-ms="43">
       <class name="runners.ExtentReport">
-        <test-method is-config="true" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="startReport" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="startReport" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml]]>
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -45,17 +45,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method signature="testCase1()[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="testCase1" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method signature="testCase1()[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="testCase1" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml]]>
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -83,21 +83,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="getResult" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="getResult" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testCase2()[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="testCase2" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method signature="testCase2()[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="testCase2" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml]]>
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -125,21 +125,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="getResult" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="getResult" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testCase3()[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="testCase3" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method signature="testCase3()[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="testCase3" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml]]>
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -167,21 +167,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase3 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="getResult" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="getResult" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testCase4()[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="testCase4" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method signature="testCase4()[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="testCase4" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml]]>
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -209,21 +209,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase4 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="getResult" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="getResult" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testCase5()[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="testCase5" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method signature="testCase5()[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="testCase5" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml]]>
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'OS' is required by BeforeTest on method startReport but has not been marked @Optional or defined
-in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1917693287\testng-customsuite.xml
+in C:\Users\spanda\AppData\Local\Temp\testng-eclipse-1588348752\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -251,11 +251,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase5 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="getResult" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="getResult" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.ExtentReport@928763c]" started-at="2018-09-13T14:38:40Z" name="tearDown" finished-at="2018-09-13T14:38:40Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.ExtentReport@306cf3ea]" started-at="2018-09-13T14:47:57Z" name="tearDown" finished-at="2018-09-13T14:47:57Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
